@@ -1,0 +1,53 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{ 
+    background-color: hsl(30, 54%, 90%);
+}
+
+.box{
+    background-color: hsl(0, 0%, 100%);
+    margin: 100px 400px;
+    border-radius: 15px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    text-align: left;
+}
+
+.time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    color: hsl(332, 51%, 32%);
+    padding: 10px 30px;
+}
+
+li{
+    color: black;
+    margin: 10px;
+}
+
+.ingredients{
+    margin-bottom: 30px;
+}
+
+.instructions{
+    list-style-type: decimal;
+}
